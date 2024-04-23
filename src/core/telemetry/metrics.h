@@ -214,6 +214,7 @@ class GlobalInstrumentsRegistry {
 
  private:
   friend class GlobalInstrumentsRegistryTestPeer;
+  friend class XorStatsPlugin;
 
   GlobalInstrumentsRegistry() = delete;
 
